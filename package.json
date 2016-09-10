@@ -1,0 +1,32 @@
+{
+  "name": "rollup-plugin-buba",
+  "description": "Rollup plugin for buba",
+  "version": "1.0.0",
+  "author": "David Chase <davidchase03@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/davidchase/rollup-plugin-buba/issues"
+  },
+  "dependencies": {
+    "buba": "3.0.1",
+    "rollup-pluginutils": "1.5.2"
+  },
+  "devDependencies": {
+    "rollup": "0.34.13"
+  },
+  "homepage": "https://github.com/davidchase/rollup-plugin-buba#readme",
+  "keywords": [
+    "babel",
+    "buba",
+    "buble",
+    "es6"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidchase/rollup-plugin-buba.git"
+  },
+  "scripts": {
+    "test": "buba"
+  }
+}
