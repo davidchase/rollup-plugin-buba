@@ -21,12 +21,13 @@
     "es6"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/rollup-plugin-buba.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davidchase/rollup-plugin-buba.git"
   },
   "scripts": {
-    "test": "buba"
+    "test": "buba",
+    "build": "rollup -c -f cjs -o dist/rollup-plugin-buba.js"
   }
 }
